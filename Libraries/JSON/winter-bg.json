@@ -20,7 +20,7 @@
           "nb_sides": 5
         },
         "image": {
-          "src": "../Pic/Icon/PNG/snowflake.png",
+          "src": "../../Pic/Icon/PNG/snowflake.png",
           "width": 100,
           "height": 100
         }
