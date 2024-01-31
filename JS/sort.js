@@ -7,10 +7,10 @@ persianNumbering = [
     if (localStorage.getItem('Players') == null) {
         _qsa('#background , header , main , footer').forEach(elem => elem.remove());
         _qs('title').textContent = 'شروع بازی';
-        _qs('link[rel="icon"]').href = '/Pic/Tab/check.png';
+        _qs('link[rel="icon"]').href = '../Pic/Tab/check.png';
         _qs('meta[name="theme-color"]').content = '#000';
         _qs('.error__wrapper h3').addEventListener('click' , () => {
-            window.open('/' , '_top');
+            window.open('../' , '_top');
         });
         window.addEventListener('keydown' , event => (event.key == 'Enter' ? _qs('.error__wrapper h3').click() : (event.key == 'Escape' ? window.close() : null)));
     } else {
@@ -60,7 +60,7 @@ async function getTurns () {
     });
     btn.addEventListener('click' , () => {
         localStorage.setItem('Players' , JSON.stringify(randomizedPlayers));
-        window.open('/Pages/game.html' , '_top');
+        window.open('../Pages/game.html' , '_top');
     });
     btn.classList.add('start-game-btn' , 'btn');
     btn.textContent = 'حله';
