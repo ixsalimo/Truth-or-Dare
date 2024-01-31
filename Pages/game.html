@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#7866ff">
+    <title>جرأت و حقیقت</title>
+    <link rel="icon" href="/Pic/Tab/joystick.png">
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="/CSS/fonts.css">
+    <link rel="stylesheet" href="/Libraries/CSS/aos.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <section id="loader">
+        <span id="left-loader-circle" class="loader-circle"></span><span id="middle-loader-circle" class="loader-circle"></span><span id="right-loader-circle" class="loader-circle"></span>
+    </section>
+    <section class="error__wrapper">
+        <h3>برای شروع بازی کلیک کنید</h3>
+    </section>
+    <div id="background" class="main-page"></div>
+    <section id="menu__wrapper">
+        <img id="close-menu" src="/Pic/Icon/SVG/xmark-solid.svg" alt="❌">
+        <article id="menu">
+            <h2>نکات مهم بازی</h2>
+            <span class="split-line"></span>
+            <ul>
+                <li>نکته اول</li>
+                <p>اگر کسی به هر دلیلی نتونست سوالش رو جواب یا انجام بده باید مجازات بشه</p>
+                <li>نکته دوم</li>
+                <p>داخل خود بازی برای سوالاتی که نیاز به اندازه گیری زمان دارن، تایمر طراحی شده</p>
+                <li>نکته سوم</li>
+                <p>بنظر من (<a href="https://github.com/ixsalimo" title="Creator" target="_blank" rel="noopener noreferrer">خالق بازی</a>) سوالی که براتون اومده رو انجام بدید و اصلا سراغ مجازات نرید</p>
+                <li>نکته چهارم</li>
+                <p>این بازی کاملا دوستانه است و برای سرگرمی طراحی شده، پس شاد باشید!</p>
+                <section id="questions-count">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>تعداد سوالات</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>جرأت</th>
+                                <th>حقیقت</th>
+                                <th>مجازات</th>
+                            </tr>
+                            <tr>
+                                <td id="dare-questions-count"></td>
+                                <td id="truth-questions-count"></td>
+                                <td id="punish-questions-count"></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td id="all-questions-count"></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </section>
+            </ul>
+            <span class="split-line"></span>
+            <p class="copyright">© Created with&nbsp;<img src="/Pic/Icon/SVG/heart.svg" alt="❤️">&nbsp;by&nbsp;<a href="https://github.com/ixsalimo" title="Creator" target="_blank" rel="noopener noreferrer">ixsalimo</a></p>
+        </article>
+    </section>
+    <header>
+        <nav>
+            <h1 class="title">جرأت و حقیقت</h1>
+            <section id="menu-btn">
+                <span class="menu__line"></span>
+                <span class="menu__line"></span>
+                <span class="menu__line"></span>
+            </section>
+        </nav>
+    </header>
+    <main class="main">
+        <section id="timer__wrapper">
+            <div id="timer-input__wrapper">
+                <input list="timer-list" type="text" inputmode="none" placeholder="00" id="hour">
+                <span>:</span>
+                <input list="timer-list" type="text" inputmode="none" placeholder="00" id="minute">
+                <span>:</span>
+                <input list="timer-list" type="text" inputmode="none" placeholder="00" id="second">
+                <article id="timer-list"></article>
+            </div>
+            <div id="timer-btn__wrapper">
+                <button id="pause-timer-btn" class="hidden"  value="pause">توقف</button>
+                <button id="start-timer-btn" value="start">بشمار</button>
+                <button id="stop-timer-btn"  class="hidden" value="stop">لغو</button>
+            </div>
+        </section>
+        <section id="player-turn__wrapper"></section>
+        <article id="question__wrapper"></article>
+        <section id="punish-btn__wrapper" class="hidden">
+            <button id="punish-btn" class="btn">مجازات</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <div id="dare-truth__wrapper">
+            <button id="start-btn" class="btn">شروع</button>
+            <div id="dare-truth-btn__wrapper">
+                <section id="truth-btn__wrapper" data-aos="fade-up-right" data-aos-anchor="body" data-aos-delay="150">
+                    <button data-status="false" class="btn">حقیقت</button>
+                    <img src="/Pic/Icon/SVG/circle-xmark-regular.svg" alt="❌">
+                </section>
+                <section id="dare-btn__wrapper" data-aos="fade-up-left" data-aos-anchor="body">
+                    <button data-status="false" class="btn">جرأت</button>
+                    <img src="/Pic/Icon/SVG/circle-xmark-regular.svg" alt="❌">
+                </section>
+            </div>
+        </div>
+    </footer>
+    <script src="/Libraries/JS/sweetalert2@11.js"></script>
+    <script src="/Libraries/JS/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="/JS/game.js"></script>
+</body>
+</html>
