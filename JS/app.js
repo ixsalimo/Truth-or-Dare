@@ -1,6 +1,7 @@
 const $ = document , _id = id => $.getElementById(id) , _qs = id => $.querySelector(id) , _qsa = id => $.querySelectorAll(id);
 //! Functions
 window.addEventListener("DOMContentLoaded" , function () {
+    const DATE = new Date();
     let bg = _id('particles-js') , icon = _qs('link[rel="icon"]') , tab = _qs('meta[name="theme-color"]');
     switch (DATE.getUTCMonth() + 1) {
         case 12:
