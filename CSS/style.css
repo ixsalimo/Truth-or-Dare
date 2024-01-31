@@ -178,16 +178,16 @@ datalist {
     background-image: linear-gradient(180deg , #edf2fb , #e2eafc , #d7e3fc , #ccdbfd , #c1d3fe , #b6ccfe , #abc4ff);
 }
 #particles-js.winter {
-    background-image: url(/Truth.Dare.github.io/Pic/Background/winter.jpg);
+    background-image: url(/Truth-or-Dare/Pic/Background/winter.jpg);
 }
 #particles-js.spring {
-    background-image: url(/Truth.Dare.github.io/Pic/Background/spring.jpg);
+    background-image: url(/Truth-or-Dare/Pic/Background/spring.jpg);
 }
 #particles-js.summer {
-    background-image: url(/Truth.Dare.github.io/Pic/Background/summer.jpg);
+    background-image: url(/Truth-or-Dare/Pic/Background/summer.jpg);
 }
 #particles-js.autumn {
-    background-image: url(/Truth.Dare.github.io/Pic/Background/autumn.jpg);
+    background-image: url(/Truth-or-Dare/Pic/Background/autumn.jpg);
 }
 #start-game__wrapper {
     position: fixed;
@@ -200,7 +200,7 @@ datalist {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    cursor: url(/Truth.Dare.github.io/Pic/Cursor/navigate.png) , auto;
+    cursor: url(/Truth-or-Dare/Pic/Cursor/navigate.png) , auto;
 }
 #start-game__wrapper #start-game {
     position: relative;
@@ -279,7 +279,7 @@ datalist {
     font-size: 1.3rem;
     text-decoration: none;
     font-family: 'Vazir Bold' , sans-serif;
-    cursor: url(/Truth.Dare.github.io/Pic/Cursor/pointer.png) , auto;
+    cursor: url(/Truth-or-Dare/Pic/Cursor/pointer.png) , auto;
     transition: all 300ms ease;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -304,7 +304,7 @@ datalist {
     border-top: 4px solid var(--medium-slate-blue);
 }
 #start-game__wrapper #start-game footer p a {
-    cursor: url(/Truth.Dare.github.io/Pic/Cursor/pointer.png) , auto;
+    cursor: url(/Truth-or-Dare/Pic/Cursor/pointer.png) , auto;
 }
 
 /*! players.html */
