@@ -1,61 +1,61 @@
 /*! Vazir Black !*/
 @font-face {
     font-family: 'Vazir Black';
-    src: url(../Font/Vazir-Black.woff2) format('woff2'),
-    url(../Font/Vazir-Black.eot) format('embedded-opentype'),
-    url(../Font/Vazir-Black.woff) format('woff'),
-    url(../Font/Vazir-Black.ttf) format('truetype');
+    src: url(/Truth.Dare.github.io/Font/Vazir-Black.woff2) format('woff2'),
+    url(/Truth.Dare.github.io/Font/Vazir-Black.eot) format('embedded-opentype'),
+    url(/Truth.Dare.github.io/Font/Vazir-Black.woff) format('woff'),
+    url(/Truth.Dare.github.io/Font/Vazir-Black.ttf) format('truetype');
     font-weight: 900;
 }
 /*! Vazir Bold !*/
 @font-face {
     font-family: 'Vazir Bold';
-    src: url(../Font/Vazir-Bold.woff2) format('woff2'),
-    url(../Font/Vazir-Bold.eot) format('embedded-opentype'),
-    url(../Font/Vazir-Bold.woff) format('woff'),
-    url(../Font/Vazir-Bold.ttf) format('truetype');
+    src: url(/Truth.Dare.github.io/Font/Vazir-Bold.woff2) format('woff2'),
+    url(/Truth.Dare.github.io/Font/Vazir-Bold.eot) format('embedded-opentype'),
+    url(/Truth.Dare.github.io/Font/Vazir-Bold.woff) format('woff'),
+    url(/Truth.Dare.github.io/Font/Vazir-Bold.ttf) format('truetype');
     font-weight: bold;
 }
 /*! Vazir Medium !*/
 @font-face {
     font-family: 'Vazir Medium';
-    src: url(../Font/Vazir-Medium.woff2) format('woff2'),
-    url(../Font/Vazir-Medium.eot) format('embedded-opentype'),
-    url(../Font/Vazir-Medium.woff) format('woff'),
-    url(../Font/Vazir-Medium.ttf) format('truetype');
+    src: url(/Truth.Dare.github.io/Font/Vazir-Medium.woff2) format('woff2'),
+    url(/Truth.Dare.github.io/Font/Vazir-Medium.eot) format('embedded-opentype'),
+    url(/Truth.Dare.github.io/Font/Vazir-Medium.woff) format('woff'),
+    url(/Truth.Dare.github.io/Font/Vazir-Medium.ttf) format('truetype');
     font-weight: 500;
 }
 /*! Vazir Regular !*/
 @font-face {
     font-family: 'Vazir Regular';
-    src: url(../Font/Vazir-Regular.woff2) format('woff2'),
-    url(../Font/Vazir-Regular.eot) format('embedded-opentype'),
-    url(../Font/Vazir-Regular.woff) format('woff'),
-    url(../Font/Vazir-Regular.ttf) format('truetype');
+    src: url(/Truth.Dare.github.io/Font/Vazir-Regular.woff2) format('woff2'),
+    url(/Truth.Dare.github.io/Font/Vazir-Regular.eot) format('embedded-opentype'),
+    url(/Truth.Dare.github.io/Font/Vazir-Regular.woff) format('woff'),
+    url(/Truth.Dare.github.io/Font/Vazir-Regular.ttf) format('truetype');
     font-weight: normal;
 }
 /*! Vazir Light !*/
 @font-face {
     font-family: 'Vazir Light';
-    src: url(../Font/Vazir-Light.woff2) format('woff2'),
-    url(../Font/Vazir-Light.eot) format('embedded-opentype'),
-    url(../Font/Vazir-Light.woff) format('woff'),
-    url(../Font/Vazir-Light.ttf) format('truetype');
+    src: url(/Truth.Dare.github.io/Font/Vazir-Light.woff2) format('woff2'),
+    url(/Truth.Dare.github.io/Font/Vazir-Light.eot) format('embedded-opentype'),
+    url(/Truth.Dare.github.io/Font/Vazir-Light.woff) format('woff'),
+    url(/Truth.Dare.github.io/Font/Vazir-Light.ttf) format('truetype');
     font-weight: 300;
 }
 /*! Vazir Thin !*/
 @font-face {
     font-family: 'Vazir Thin';
-    src: url(../Font/Vazir-Thin.woff2) format('woff2'),
-    url(../Font/Vazir-Thin.eot) format('embedded-opentype'),
-    url(../Font/Vazir-Thin.woff) format('woff'),
-    url(../Font/Vazir-Thin.ttf) format('truetype');
+    src: url(/Truth.Dare.github.io/Font/Vazir-Thin.woff2) format('woff2'),
+    url(/Truth.Dare.github.io/Font/Vazir-Thin.eot) format('embedded-opentype'),
+    url(/Truth.Dare.github.io/Font/Vazir-Thin.woff) format('woff'),
+    url(/Truth.Dare.github.io/Font/Vazir-Thin.ttf) format('truetype');
     font-weight: 100;
 }
 /*! Inter !*/
 @font-face {
     font-family: 'Inter';
-    src: url(../Font/Inter.ttf) format('truetype');
+    src: url(/Truth.Dare.github.io/Font/Inter.ttf) format('truetype');
     font-weight: 100 900;
 }
 
@@ -78,54 +78,54 @@
 /*! Vazir Black Persian Digits !*/
 @font-face {
     font-family: 'Vazir Black PD';
-    src: url(../Font/PD/Vazir-Black-FD.woff2) format('woff2'),
-    url(../Font/PD/Vazir-Black-FD.eot) format('embedded-opentype'),
-    url(../Font/PD/Vazir-Black-FD.woff) format('woff'),
-    url(../Font/PD/Vazir-Black-FD.ttf) format('truetype');
+    src: url(/Truth.Dare.github.io/Font/PD/Vazir-Black-FD.woff2) format('woff2'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Black-FD.eot) format('embedded-opentype'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Black-FD.woff) format('woff'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Black-FD.ttf) format('truetype');
     font-weight: 900;
 }
 /*! Vazir Bold Persian Digits !*/
 @font-face {
     font-family: 'Vazir Bold PD';
-    src: url(../Font/PD/Vazir-Bold-FD.woff2) format('woff2'),
-    url(../Font/PD/Vazir-Bold-FD.eot) format('embedded-opentype'),
-    url(../Font/PD/Vazir-Bold-FD.woff) format('woff'),
-    url(../Font/PD/Vazir-Bold-FD.ttf) format('truetype');
+    src: url(/Truth.Dare.github.io/Font/PD/Vazir-Bold-FD.woff2) format('woff2'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Bold-FD.eot) format('embedded-opentype'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Bold-FD.woff) format('woff'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Bold-FD.ttf) format('truetype');
     font-weight: bold;
 }
 /*! Vazir Medium Persian Digits !*/
 @font-face {
     font-family: 'Vazir Medium PD';
-    src: url(../Font/PD/Vazir-Medium-FD.woff2) format('woff2'),
-    url(../Font/PD/Vazir-Medium-FD.eot) format('embedded-opentype'),
-    url(../Font/PD/Vazir-Medium-FD.woff) format('woff'),
-    url(../Font/PD/Vazir-Medium-FD.ttf) format('truetype');
+    src: url(/Truth.Dare.github.io/Font/PD/Vazir-Medium-FD.woff2) format('woff2'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Medium-FD.eot) format('embedded-opentype'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Medium-FD.woff) format('woff'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Medium-FD.ttf) format('truetype');
     font-weight: 500;
 }
 /*! Vazir Regular Persian Digits !*/
 @font-face {
     font-family: 'Vazir Regular PD';
-    src: url(../Font/PD/Vazir-Regular-FD.woff2) format('woff2'),
-    url(../Font/PD/Vazir-Regular-FD.eot) format('embedded-opentype'),
-    url(../Font/PD/Vazir-Regular-FD.woff) format('woff'),
-    url(../Font/PD/Vazir-Regular-FD.ttf) format('truetype');
+    src: url(/Truth.Dare.github.io/Font/PD/Vazir-Regular-FD.woff2) format('woff2'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Regular-FD.eot) format('embedded-opentype'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Regular-FD.woff) format('woff'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Regular-FD.ttf) format('truetype');
     font-weight: normal;
 }
 /*! Vazir Light Persian Digits !*/
 @font-face {
     font-family: 'Vazir Light PD';
-    src: url(../Font/PD/Vazir-Light-FD.woff2) format('woff2'),
-    url(../Font/PD/Vazir-Light-FD.eot) format('embedded-opentype'),
-    url(../Font/PD/Vazir-Light-FD.woff) format('woff'),
-    url(../Font/PD/Vazir-Light-FD.ttf) format('truetype');
+    src: url(/Truth.Dare.github.io/Font/PD/Vazir-Light-FD.woff2) format('woff2'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Light-FD.eot) format('embedded-opentype'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Light-FD.woff) format('woff'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Light-FD.ttf) format('truetype');
     font-weight: 300;
 }
 /*! Vazir Thin Persian Digits !*/
 @font-face {
     font-family: 'Vazir Thin PD';
-    src: url(../Font/PD/Vazir-Thin-FD.woff2) format('woff2'),
-    url(../Font/PD/Vazir-Thin-FD.eot) format('embedded-opentype'),
-    url(../Font/PD/Vazir-Thin-FD.woff) format('woff'),
-    url(../Font/PD/Vazir-Thin-FD.ttf) format('truetype');
+    src: url(/Truth.Dare.github.io/Font/PD/Vazir-Thin-FD.woff2) format('woff2'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Thin-FD.eot) format('embedded-opentype'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Thin-FD.woff) format('woff'),
+    url(/Truth.Dare.github.io/Font/PD/Vazir-Thin-FD.ttf) format('truetype');
     font-weight: 100;
 }

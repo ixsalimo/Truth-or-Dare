@@ -1,4 +1,4 @@
-const $ = document , _id = id => $.getElementById(id) , _qs = id => $.querySelector(id) , _qsa = id => $.querySelectorAll(id) , Bubble = new Audio('../Audio/bubble.wav') ,
+const $ = document , _id = id => $.getElementById(id) , _qs = id => $.querySelector(id) , _qsa = id => $.querySelectorAll(id) , Bubble = new Audio('/Truth.Dare.github.io/Audio/bubble.wav') ,
 Warn = Swal.mixin({
     showConfirmButton: false,
     timer: 1500,
@@ -112,10 +112,10 @@ var dareQuestions = [
     if (localStorage.getItem('Players') == null) {
         _qsa('#background , #menu__wrapper , header , main , footer').forEach(elem => elem.remove());
         _qs('title').textContent = 'شروع بازی';
-        _qs('link[rel="icon"]').href = '../Pic/Tab/check.png';
+        _qs('link[rel="icon"]').href = '/Truth.Dare.github.io/Pic/Tab/check.png';
         _qs('meta[name="theme-color"]').content = '#000';
         _qs('.error__wrapper h3').addEventListener('click' , () => {
-            window.open('../' , '_top');
+            window.open('/Truth.Dare.github.io/' , '_top');
         });
         window.addEventListener('keydown' , event => (event.key == 'Enter' ? _qs('.error__wrapper h3').click() : (event.key == 'Escape' ? window.close() : null)));
     } else {
@@ -180,12 +180,12 @@ function checkActive (elem) {
     if (!JSON.parse(btn.getAttribute('data-status'))) {
         wrapper.classList.add('active');
         btn.setAttribute('data-status' , JSON.stringify(true));
-        icon.src = '../Pic/Icon/SVG/circle-check-regular.svg';
+        icon.src = '/Truth.Dare.github.io/Pic/Icon/SVG/circle-check-regular.svg';
         icon.alt = '✔️';
     } else {
         wrapper.removeAttribute('class');
         btn.setAttribute('data-status' , JSON.stringify(false));
-        icon.src = '../Pic/Icon/SVG/circle-xmark-regular.svg';
+        icon.src = '/Truth.Dare.github.io/Pic/Icon/SVG/circle-xmark-regular.svg';
         icon.alt = '❌';
     };
 };
